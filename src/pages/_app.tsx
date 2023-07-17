@@ -9,7 +9,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main
       className={cn(
-        "bg-neutral-light-grey text-neutral-off-black flex min-h-screen flex-col items-center justify-center font-sans",
+        "text-neutral-off-black mx-auto flex min-h-screen max-w-[1440px] flex-col bg-neutral-white font-sans",
         fontSans.className,
         fontSerif.variable
       )}
