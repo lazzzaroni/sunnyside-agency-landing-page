@@ -1,19 +1,13 @@
 import Image from "next/image";
 
 import Hero from "./Hero";
+import Services from "./Services";
 
 export default function Container() {
   return (
     <>
       <Hero />
-      <section className="grid grid-cols-1 border border-green-500 md:grid-cols-2">
-        <div className="border text-center">1</div>
-        <div className="border text-center">1</div>
-        <div className="border text-center">1</div>
-        <div className="border text-center">1</div>
-        <div className="border text-center">1</div>
-        <div className="border text-center">1</div>
-      </section>
+      <Services />
       <section className="border border-blue-500 text-center">
         <h1>Client testimonials</h1>
         <ul className="flex flex-col items-center justify-center md:flex-row">
