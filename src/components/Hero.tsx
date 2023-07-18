@@ -2,7 +2,8 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 
-import { ArrowDown, Logo, Menu } from "./Icons";
+import { ArrowDown, Logo } from "./Icons";
+import MobileMenu from "./MobileMenu";
 
 export default function Hero() {
   return (
@@ -16,9 +17,7 @@ export default function Hero() {
         <span className={cn("mr-auto h-auto w-[124px]", "md:w-[170px]")}>
           <Logo />
         </span>
-        <button className="flex items-center justify-center md:hidden">
-          <Menu />
-        </button>
+        <MobileMenu />
         <ul
           className={cn(
             "hidden",
