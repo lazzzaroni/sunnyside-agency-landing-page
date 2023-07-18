@@ -7,8 +7,8 @@ export default function Services() {
     <section className="grid h-auto grid-cols-1 bg-primary-soft-red/5 md:grid-cols-2">
       <div
         className={cn(
-          "order-1 h-[312px] w-full bg-[url('/images/mobile/image-transform.jpg')] bg-cover bg-center bg-no-repeat text-center",
-          "md:order-2 md:h-[600px] md:bg-[url('/images/desktop/image-transform.jpg')]"
+          "order-1 aspect-square w-full bg-[url('/images/mobile/image-transform.jpg')] bg-cover bg-center bg-no-repeat text-center",
+          "md:order-2 md:bg-[url('/images/desktop/image-transform.jpg')]"
         )}
       ></div>
       <div
@@ -45,8 +45,8 @@ export default function Services() {
       </div>
       <div
         className={cn(
-          "order-3 h-[312px] w-full bg-[url('/images/mobile/image-stand-out.jpg')] bg-cover bg-center bg-no-repeat text-center",
-          "md:h-[600px] md:bg-[url('/images/desktop/image-stand-out.jpg')]"
+          "order-3 aspect-square w-full bg-[url('/images/mobile/image-stand-out.jpg')] bg-cover bg-center bg-no-repeat text-center",
+          "md:bg-[url('/images/desktop/image-stand-out.jpg')]"
         )}
       ></div>
       <div
@@ -84,7 +84,7 @@ export default function Services() {
       <div
         className={cn(
           "order-5 flex h-[600px] w-full flex-col items-center justify-center bg-[url('/images/mobile/image-graphic-design.jpg')] bg-cover bg-center bg-no-repeat text-center text-primary-dark-desaturated-cyan",
-          "md:h-[600px] md:bg-[url('/images/desktop/image-graphic-design.jpg')]"
+          "md:aspect-square md:bg-[url('/images/desktop/image-graphic-design.jpg')] lg:h-auto"
         )}
       >
         <h1 className={cn("mt-auto font-serif text-2xl font-black")}>
@@ -103,7 +103,7 @@ export default function Services() {
       <div
         className={cn(
           "order-6 flex h-[600px] w-full flex-col items-center justify-center bg-[url('/images/mobile/image-photography.jpg')] bg-cover bg-center bg-no-repeat text-center text-primary-dark-blue",
-          "md:h-[600px] md:bg-[url('/images/desktop/image-photography.jpg')]"
+          "md:aspect-square md:bg-[url('/images/desktop/image-photography.jpg')] lg:h-auto"
         )}
       >
         <h1 className={cn("mt-auto font-serif text-2xl font-black")}>
