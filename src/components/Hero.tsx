@@ -25,13 +25,25 @@ export default function Hero() {
             "items-center justify-center md:flex md:gap-11 md:pr-2"
           )}
         >
-          <li className="text-lg">About</li>
-          <li className="text-lg">Services</li>
-          <li className="text-lg">Projects</li>
+          <li className="text-lg">
+            <Link href="#" className="hover:text-primary-dark-blue">
+              About
+            </Link>
+          </li>
+          <li className="text-lg">
+            <Link href="#" className="hover:text-primary-dark-blue">
+              Services
+            </Link>
+          </li>
+          <li className="text-lg">
+            <Link href="#" className="hover:text-primary-dark-blue">
+              Projects
+            </Link>
+          </li>
           <li className="text-base">
             <Link
-              href="#contact"
-              className="rounded-full bg-white px-7 py-[18px] font-serif font-bold uppercase text-neutral-very-dark-desaturated-blue"
+              href="#"
+              className="rounded-full bg-white px-7 py-[18px] font-serif font-bold uppercase text-neutral-very-dark-desaturated-blue hover:bg-neutral-white/25 hover:text-neutral-white"
             >
               Contact
             </Link>
