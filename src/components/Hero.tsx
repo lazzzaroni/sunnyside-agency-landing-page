@@ -13,7 +13,7 @@ export default function Hero() {
         "md:h-[800px] md:bg-[url('/images/desktop/image-header.jpg')] md:p-10"
       )}
     >
-      <nav className={cn("flex py-2", "md:py-1.5")}>
+      <nav className={cn("relative flex py-2", "md:py-1.5")}>
         <span className={cn("mr-auto h-auto w-[124px]", "md:w-[170px]")}>
           <Logo />
         </span>
