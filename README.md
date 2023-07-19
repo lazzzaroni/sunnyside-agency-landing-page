@@ -47,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/lazzzaroni/sunnyside-agency-landing-page)
-- Live Site URL: [GitHub Pages](https://lazzzaroni.github.io/sunnyside-agency-landing-page)
+- Live Site URL: [Netlify](https://lazzzaroni-sunnyside-agency.netlify.app/)
 
 ## My process
 
